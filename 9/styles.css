@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    padding: 0;
+    width: fit-content;
+}
+
+.hoverItem  {
+    cursor: pointer;
+}
+
+.hoverItem  li {
+    display: none;
+}
+
+.hoverItem:hover ul {
+    background-color: red;
+    padding-left: 50px;
+}
+
+.hoverItem:hover li {
+    display: list-item;
+}

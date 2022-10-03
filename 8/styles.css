@@ -1,0 +1,32 @@
+body {
+    margin: unset;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    color: white
+}
+
+.first {
+    position: absolute;
+    background: red;
+    top: 100px;
+    left: 100px;
+}
+
+.second {
+    background: green;
+}
+
+.third {
+    position: absolute;
+    background: blue;
+    top: 0;
+    left: 100px;
+}
+
+.fourth {
+    background: black;
+}
+

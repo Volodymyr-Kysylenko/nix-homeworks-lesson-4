@@ -1,0 +1,18 @@
+body > div {
+    background-color: red;
+}
+
+.first {
+    float: left;
+    width: 33.3%;
+}
+
+.second {
+    float: right;
+    width: 33.3%;
+}
+
+.third {
+    background: white;
+    margin: 0 33.3%;
+}

@@ -1,0 +1,13 @@
+div {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+div:nth-child(2n) {
+    float: left;
+}
+
+div:nth-child(2n+1) {
+    float: right;
+}

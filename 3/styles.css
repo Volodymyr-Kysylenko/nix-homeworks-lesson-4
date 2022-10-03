@@ -1,0 +1,35 @@
+div {
+    color: white;
+}
+
+.first {
+    width: 33.3%;
+}
+
+.second {
+    margin-left: 33.3%;
+}
+
+.second > div:first-child {
+    width: 33.3%;
+}
+
+.second > div:last-child {
+    margin-right: 33.3%;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.thirdWidth {
+    width: 33.3%;
+}
+
+.thirdLeftRightMargin {
+    margin: 0 33.3%;
+}
